@@ -1,10 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+
+<div th:fragment="header">
+    <div class="section clearfix">
+        <a class="logo" href="/home">
+            <table style="width: 400px; height: 70px; margin-left: 25px;">
+                <tbody>
+                <tr>
+                    <td style="display: inline-block;padding: 5px"><img
+                            src="/img/logo/logo.png" height="58px" width="58"></td>
+                    <td STYLE="display: inline-block; padding: 5px"><font
+                            style="font-size: 40px; font-family: Verdana; font-weight: bold; color: #f1f2e6;">МФС</font>
+                    </td>
+                    <td style="display: inline-block; padding: 5px 0;"><font
+                            style="font-size:14px; font-family: Verdana; color:#f1f2e6;">Московская Федерация
+                        <br>Судей по плаванию</font></td>
+                </tr>
+                </tbody>
+            </table>
+        </a>
+        <div class="addr">ТЕЛ: +7 (985) 788-85-36<br><a
+                href="mailto:dnsborshev@gmail.com">dnsborshev@gmail.com</a></div>
+        <div class="social">
+            <ul>
+                <li class="flickr"><a class="social-item" target="_blank" href="http://vk.com/official_vfp"><img
+                        width="47" src="/img/social/vk.png"></a></li>
+                <li class="flickr"><a class="social-item" target="_blank" href="https://t.me/official_vfp"><img
+                        width="47" src="/img/social/tg.png"></a></li>
+                <li class="flickr"><a class="social-item" target="_blank" href="https://ok.ru/official.vfp"><img
+                        width="47" src="/img/social/ok.png"></a></li>
+                <li class="flickr"><a class="social-item" target="_blank"
+                                      href="https://www.youtube.com/c/official_vfp"><img width="47"
+                                                                                         src="/img/social/yt.png"></a>
+                </li>
+                <li class="flickr"><a class="social-item" target="_blank"
+                                      href="https://rutube.ru/channel/24808063/"><img width="47"
+                                                                                      src="/img/social/rt.png"></a>
+                </li>
+            </ul>
+        </div>
+        <ul class="nav">
+            <li>
+                <a href="#">Новости</a>
+            </li>
+            <li>
+                <a href="#">Судьям</a>
+            </li>
+            <li>
+                <a href="/shop">Магазин</a>
+            </li>
+            <li>
+                <a href="/contacts">Контакты</a>
+            </li>
+            <li>
+                <a href="/account/login">Личный кабинет</a>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -9,7 +9,7 @@ body {
     font-family: "Lato", Calibri, Arial, sans-serif;
     font-size: 14px;
     height: 100%;
-    background: url("../img/wallpaper/swimming-pool-water-dt-1920x1080.png") 0 0 repeat-x;
+    background: url("../../img/wallpaper/swimming-pool-water-dt-1920x1080.png") 0 0 repeat-x;
     background-attachment: fixed;
 }
 
@@ -20,12 +20,12 @@ div {
 .page-wrapper {
     position: relative;
     margin: 0 auto;
-    /*background: #d2e2fd;*/
+    background: #67b7fb;
     /*background: url("../img/main.png");*/
-    background-image: linear-gradient(to right top,
-    #eba8ff, #d6a9ff, #c1aafd, #adaaf8, #9baaf2, #91abf1, #87acf0, #7eadee, #77b0f3, #70b4f7, #67b7fb, #5dbbff);
+    /*background-image: linear-gradient(to right top,
+    #eba8ff, #d6a9ff, #c1aafd, #adaaf8, #9baaf2, #91abf1, #87acf0, #7eadee, #77b0f3, #70b4f7, #67b7fb, #5dbbff);*/
     width: 1150px;
-    height: 1200px;
+    height: 900px;
     box-shadow: 0 0 15px;
 }
 
@@ -116,6 +116,6 @@ li {
     display: none;
 }
 
-table {
+header table {
     border-spacing: 3px;
 }

@@ -2,38 +2,46 @@
 <html lang="en"
       xmlns:th="http://www.thymeleaf.org">
 <head>
-  <title>Московская Федерация Судей</title>
-  <link th:href="@{/css/main/profile/styleAdmin.css}" rel="stylesheet" type="text/css">
-  <link th:href="@{/css/background-page/page.css}" rel="stylesheet" type="text/css">
+    <title>Московская Федерация Судей</title>
+    <link th:href="@{/css/main/account/styleAdmin.css}" rel="stylesheet" type="text/css">
+    <link th:href="@{/css/background-page/page.css}" rel="stylesheet" type="text/css">
 
 </head>
 <body class="html front not-logged-in no-sidebars page-not">
-<div class="page-wrapper" >
-  <div class="page">
-    <div class="header">
-      <header th:insert="html/blocks/header :: header"></header>
-      <main>
-        <table>
-          <tr>
-            <td>
-              <div th:text="${user}"/>
-            </td>
-            <td>
-              Судейская категория 1
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Пользователь 2
-            </td>
-            <td>
-              Судейская категория 2
-            </td>
-          </tr>
-        </table>
-      </main>
+<div class="page-wrapper">
+    <div class="page">
+        <div class="header">
+            <header th:insert="html/blocks/header :: header"></header>
+            <main>
+                <table>
+                    <tr th:each="usersFromServer : ${usersFromServer}">
+                        <td th:text="${usersFromServer.getId()}">1</td>
+                        <td><a href="#" th:text="${usersFromServer.getSecondName()}">Title ...</a></td>
+                        <td th:text="${usersFromServer.getFirstName()}">Text ...</td>
+                    </tr>
+                </table>
+
+                <!-- <table>
+                   <tr>
+                     <td>
+                       <div th:text="${user}"/>
+                     </td>
+                     <td>
+                       Судейская категория 1
+                     </td>
+                   </tr>
+                   <tr>
+                     <td>
+                       Пользователь 2
+                     </td>
+                     <td>
+                       Судейская категория 2
+                     </td>
+                   </tr>
+                 </table>-->
+            </main>
+        </div>
     </div>
-  </div>
 </div>
 </body>
 </html>
