@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Московская Федерация Судей</title>
+    <link th:href="@{/css/main/profile/styleLogin.css}" rel="stylesheet" type="text/css">
+    <link th:href="@{/css/background-page/page.css}" rel="stylesheet" type="text/css">
+
+</head>
+<body class="html front not-logged-in no-sidebars page-not">
+<div class="page-wrapper" >
+    <div class="page">
+        <div class="header">
+            <header th:insert="html/blocks/header :: header"></header>
+            <div class="main-wrapper">
+                <div id="main" class="clearfix">
+                    <div id="content" class="column">
+                        <div class="section-in">
+                            <h1 class="title" id="page-title">Для того, чтобы получить логин<br> и пароль, требуется
+                                отравить заявку</h1>
+                            <form method="POST" id="user-login"
+                                  accept-charset="UTF-8">
+                                <div class="sign-in">
+                                    <div class="login-email">
+                                        <label for="edit-email">
+                                            <input type="text" id="edit-email" name="email" value="" size="60"
+                                                   maxlength="60"
+                                                   placeholder="Введите свою почту" class="form-text-required">
+                                        </label>
+                                    </div>
+                                    <div class="login-pass">
+                                        <label for="edit-pass">
+                                            <input type="password" id="edit-pass" name="password" value="" size="60"
+                                                   maxlength="60"
+                                                   placeholder="Введите свой пароль" class="form-text-required">
+                                        </label>
+                                    </div>
+                                    <input type="submit"
+                                           id="edit-submit"
+                                           name="op" value="Войти"
+                                           class="form-submit">
+                                </div>
+                            </form>
+                            <div class="form-registration">
+                                <div class="test"><a class="form-registration-action" href="/account/registration">Отправить заявку</a></div>
+                            </div>
+                            <div class="form-dont-pass"><a class="form-dont-pass-action"
+                                                           href="#"><dfn>Забыли пароль?</dfn></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

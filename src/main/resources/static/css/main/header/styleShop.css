@@ -1,0 +1,39 @@
+
+.container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    grid-gap: 25px;
+    display: grid;
+    padding: 10px 35px;
+    position: relative;
+
+}
+.item {
+    padding: 10px;
+    border: 2px solid rgba(8 8 43);
+    background: white;
+    border-radius: 5px;
+}
+
+.img-product img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+}
+
+.page-wrapper-shops {
+
+    position: relative;
+    margin: 0 auto;
+    /*background: #d2e2fd;*/
+    /*background: url("../img/main.png");*/
+    background-image: linear-gradient(to right top,
+    #eba8ff, #d6a9ff, #c1aafd, #adaaf8, #9baaf2, #91abf1, #87acf0, #7eadee, #77b0f3, #70b4f7, #67b7fb, #5dbbff);
+    width: 1150px;
+    height: 1200px;
+    box-shadow: 0 0 15px;
+
+}

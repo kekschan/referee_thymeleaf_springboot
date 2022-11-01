@@ -1,0 +1,75 @@
+
+.main-wrapper{
+    padding: 0px 25px 0px 25px;
+    background: white;
+    top: 500px;
+}
+
+.column{
+    float: left;
+    width: 400px;
+    padding: 55px 350px;
+    position: relative;
+}
+
+.title{
+    text-align: center;
+    color: rgba(8 8 43);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Verdana;
+    padding: 4px 10px;
+    margin-bottom: -3px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+/*.sign-in{
+    !*background-color: #5ccbf7;*!
+   !* background: url("../img/water.png");*!
+    !* background: url("../img/gradient.png");*!
+}*/
+/*.section-in{
+    background: url("../img/wallpaper/gradient2.png");
+   !* background: rgb(177,152,255);*!
+    !*background: linear-gradient(90deg, rgba(177,152,255,1) 0%, rgba(161,187,255,1) 10%, rgba(248,144,255,1) 25%, rgba(240,179,255,1) 50%,
+    rgba(248,144,255,1) 75%, rgba(161,187,255,1) 90%, rgba(177,152,255,1) 100%);*!
+    width: 475px;
+    height: 200px;
+    margin-left: -40px;
+    border-radius: 30px;
+    margin-top: -10px;
+    border: 3px solid;
+    border-color: rgba(8 8 43);
+}*/
+
+.form-text-required{
+    width: 400px;
+    height: 35px;
+    margin-left: 0px;
+    margin-top: 15px;
+    border-radius: 12px;
+    border: 2px solid;
+    border-color: rgba(8 8 43);
+    background: #f1f2e6;
+    text-indent: 13px;
+}
+
+.form-submit{
+    margin-top: 15px;
+    margin-left: 114px;
+    height: 35px;
+    width: 170px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 12px;
+    background: #f1f2e6;
+    color: rgba(8 8 43);
+}
+
+
+.form-submit:hover{
+    background:#cacac8;
+}
+

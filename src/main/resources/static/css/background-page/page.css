@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: relative;
+    color: #3E3E4A;
+    font-family: "Lato", Calibri, Arial, sans-serif;
+    font-size: 14px;
+    height: 100%;
+    background: url("../img/wallpaper/swimming-pool-water-dt-1920x1080.png") 0 0 repeat-x;
+    background-attachment: fixed;
+}
+
+div {
+    display: block;
+}
+
+.page-wrapper {
+    position: relative;
+    margin: 0 auto;
+    /*background: #d2e2fd;*/
+    /*background: url("../img/main.png");*/
+    background-image: linear-gradient(to right top,
+    #eba8ff, #d6a9ff, #c1aafd, #adaaf8, #9baaf2, #91abf1, #87acf0, #7eadee, #77b0f3, #70b4f7, #67b7fb, #5dbbff);
+    width: 1150px;
+    height: 1200px;
+    box-shadow: 0 0 15px;
+}
+
+.header {
+    position: relative;
+    height: 127px;
+    background: rgba(8 8 43);
+}
+
+.logo {
+    color: #004C8D;
+    text-decoration: none;
+}
+
+.addr {
+    color: #f1f2e6;
+    position: absolute;
+    top: 15px;
+    right: 310px;
+    line-height: 23px;
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+a {
+    color: #f1f2e6;
+    text-decoration: none;
+}
+
+.social {
+    position: absolute;
+    top: 3px;
+    right: 30px;
+}
+
+.social ul {
+    list-style-type: none;
+    position: relative;
+}
+
+.social li {
+    display: inline;
+    text-align: center;
+    position: relative;
+}
+
+a img {
+    border: none;
+}
+
+.nav {
+    background: none repeat scroll 0 0 white;
+    border-bottom: 4px solid rgba(8 8 43);
+    float: left;
+    list-style: outside none none;
+    width: 1145.5px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0.7em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 5px;
+}
+
+.nav li {
+    float: left;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.nav li a {
+    color: black;
+    display: block;
+    font-size: 17.3px;
+    font-weight: bold;
+    padding: 0.95em 2.1em;
+    text-decoration: none;
+}
+
+.nav li div {
+    display: none;
+}
+
+table {
+    border-spacing: 3px;
+}
