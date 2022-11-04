@@ -13,6 +13,7 @@
         <div class="header">
             <header th:insert="html/blocks/header :: header"></header>
             <main>
+                <div class="table-findAAll">
                 <table>
                     <tr th:each="usersFromServer : ${usersFromServer}">
                         <td th:text="${usersFromServer.getId()}">1</td>
@@ -20,25 +21,7 @@
                         <td th:text="${usersFromServer.getFirstName()}">Text ...</td>
                     </tr>
                 </table>
-
-                <!-- <table>
-                   <tr>
-                     <td>
-                       <div th:text="${user}"/>
-                     </td>
-                     <td>
-                       Судейская категория 1
-                     </td>
-                   </tr>
-                   <tr>
-                     <td>
-                       Пользователь 2
-                     </td>
-                     <td>
-                       Судейская категория 2
-                     </td>
-                   </tr>
-                 </table>-->
+                </div>
             </main>
         </div>
     </div>

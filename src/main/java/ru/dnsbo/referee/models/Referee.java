@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 @Data
 @AllArgsConstructor
@@ -25,4 +26,10 @@ public class Referee {
 
     private String password;
 
+    public Referee(String secondName, String firstName, String email, String password) {
+        this.secondName = secondName;
+        this.firstName = firstName;
+        this.email = email;
+        this.password = password;
+    }
 }
